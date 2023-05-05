@@ -1,0 +1,113 @@
+.Title {
+    margin-top: 10%;
+    margin-bottom: 300px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.Title h3{
+    margin-top: 250px;
+    margin-left: 30px;
+}
+
+.Title p{
+    font-size: small;
+    display: block;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, 200%);
+    animation: Down 3s infinite;
+    z-index: 100;
+}
+
+ @keyframes Down {
+    0%{
+      bottom: 10%;
+    }
+    80%{
+      bottom:7%;
+    }
+}
+
+.border {
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+
+.card {
+    height: 379px;
+    width: 300px;
+    background: black;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    box-shadow: 0 70px 63px -60px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card0 {
+    background: url(../image/profile.jpg) center center no-repeat;
+    background-size: 300px;
+}
+
+.card0:hover {
+    background: url(../image/profile.jpg) left center no-repeat;
+    background-size: 600px;
+}
+
+.card0:hover h2 {
+    opacity: 1;
+}
+
+.card0:hover .fa {
+    opacity: 1;
+}
+
+h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.fa {
+    opacity: 0;
+    transition: opacity 1s;
+    padding: 5px;
+}
+
+.icons {
+    position: absolute;
+    fill: #fff;
+    color: #fff;
+    height: 130px;
+    top: 226px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons button{
+    background : none;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+}
+

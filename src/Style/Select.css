@@ -1,0 +1,50 @@
+.select-container{
+    position: relative;
+    height: auto;
+}
+
+.select-container nav{
+    position: sticky;
+    top: 20px;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.select-container nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.select-container nav li:not(:last-child){
+    margin-right: 40px;
+}
+
+.select-container nav ul li a{
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: .025em;
+    text-decoration: none;
+    color: lightblue;
+    transition: color .3s ease;
+    cursor: pointer;
+}
+
+.select-container nav ul li a:hover{
+    color:dodgerblue;
+}
+
+.select-container section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-container span{
+    font-size: 20px;
+    /* background: none; */
+}
