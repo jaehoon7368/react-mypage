@@ -30,30 +30,22 @@ const Select = () => {
       <div className='select-container'>
         <nav>
             <ul>
-                <li><a href="#section-1">Download</a></li>
-                <li><a href="#section-3">Skills</a></li>
-                <li><a href="#section-4">Projects</a></li>
+                <li><a href="#section-1">Skills</a></li>
+                <li><a href="#section-3">Projects</a></li>
             </ul>
         </nav>
 
         <section id="section-1">
             <div className="languageAera">
-                <File />
+                <Language />
             </div>
           </section>
           
         <section id="section-3">
             <span>
-                <Language />
-            </span>
-        </section>
-
-
-        <section id="section-4">
-            <span>
                 <Project />
             </span>
-        </section>      
+        </section>   
     </div>
   )
 }
