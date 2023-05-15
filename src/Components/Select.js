@@ -30,16 +30,23 @@ const Select = () => {
       <div className='select-container'>
         <nav>
             <ul>
-                <li><a href="#section-1">Skills</a></li>
+                <li><a href="#section-1">Download</a></li>
+                <li><a href="#section-2">Skills</a></li>
                 <li><a href="#section-3">Projects</a></li>
             </ul>
         </nav>
 
         <section id="section-1">
             <div className="languageAera">
-                <Language />
+                <File />
             </div>
           </section>
+
+        <section id="section-2">
+            <span>
+                <Language />
+            </span>
+        </section>   
           
         <section id="section-3">
             <span>

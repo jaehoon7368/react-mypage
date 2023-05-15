@@ -21,15 +21,14 @@ const Language = () => {
   return (
         <div className="language-container">
           <p>Skills</p>
-          <p className='color-yellow'>Strong</p>
+          <p className='color-yellow'>Backend</p>
             <div className='language-box'>
                 <LanguageCard title="Java" img={java}/>
-                <LanguageCard title="Servelt & Jsp" img={servlet}/>
                 <LanguageCard title="Spring" img={spring} />
                 <LanguageCard title="Oracle" img={oracle}/>
                 <LanguageCard title="Mybatis" img={mybatis}/>
             </div>
-          <p className='color-yellow'>Knowledgable</p>
+          <p className='color-yellow'>Frontend</p>
           <div className='language-box'>
                 <LanguageCard title="Javascript" img={javascript}/>
                 <LanguageCard title="React" img={react}/>
